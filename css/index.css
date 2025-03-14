@@ -1,0 +1,44 @@
+/*
+    Hack para utilizar de forma sencilla 
+    la unidad de medida rem
+*/
+
+:root {
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --blanco: #FFFFFF;
+    --negro: #212121;
+}
+
+html {
+ font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    background-color: var(--gris);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: var(--blanco);
+}
+
+/*con lo anterior logramos 
+ajustar la equivalencia de
+rem a pixeles 1rem = 10px*/
+
+h1 {
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+h1, h2 {
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--primario);
+}
